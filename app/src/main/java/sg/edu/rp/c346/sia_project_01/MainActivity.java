@@ -44,12 +44,22 @@ public class MainActivity extends AppCompatActivity {
                 }
 
                 switch (item.getItemId()) {
-                    case R.id.action_create:
+                    case R.id.action_home:
 
                 }
 
                 switch (item.getItemId()) {
-                    case R.id.action_clear:
+                    case R.id.action_hotel:
+
+                }
+
+                switch (item.getItemId()) {
+                    case R.id.action_maps:
+
+                }
+
+                switch (item.getItemId()) {
+                    case R.id.action_voucher:
 
                 }
 

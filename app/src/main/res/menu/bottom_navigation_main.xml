@@ -4,24 +4,40 @@
     >
 
     <item
+        android:id="@+id/action_home"
+        android:enabled="true"
+        android:icon="@drawable/home"
+        android:title="Home"
+        android:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_hotel"
+        android:enabled="true"
+        android:icon="@drawable/bed"
+        android:title="Hotel"
+        android:showAsAction="ifRoom"/>
+
+    <item
         android:id="@+id/action_attraction"
         android:enabled="true"
-        android:icon="@drawable/ic_action_attraction"
+        android:icon="@drawable/merlion"
         android:title="Attractions"
         android:showAsAction="ifRoom"/>
 
     <item
-        android:id="@+id/action_create"
+        android:id="@+id/action_maps"
         android:enabled="true"
-        android:icon="@drawable/ic_action_create"
-        android:title="Add"
+        android:icon="@drawable/ic_action_attraction"
+        android:title="Maps"
         android:showAsAction="ifRoom"/>
 
+
     <item
-        android:id="@+id/action_clear"
+        android:id="@+id/action_voucher"
         android:enabled="true"
-        android:icon="@drawable/ic_action_clear"
-        android:title="Remove"
+        android:icon="@drawable/discount"
+        android:title="Discount"
         android:showAsAction="ifRoom"/>
+
 
 </menu>
