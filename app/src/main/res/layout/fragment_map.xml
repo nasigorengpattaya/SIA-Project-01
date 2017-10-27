@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical"
+    tools:context="sg.edu.rp.c346.sia_project_01.MapFragment">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <Button
+        android:id="@+id/btnCityMap"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorPrimary"
+        android:text="Download E-City Maps"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/btnHopOn"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorPrimary"
+        android:text="SIA Hop-On Bus"
+        android:textColor="@android:color/background_light" />
+
+    <Button
+        android:id="@+id/btnMyLocation"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:background="@color/colorPrimary"
+        android:text="Where Am I?"
+        android:textColor="@android:color/background_light" />
+</LinearLayout>

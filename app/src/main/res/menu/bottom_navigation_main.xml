@@ -32,12 +32,4 @@
         android:showAsAction="ifRoom"/>
 
 
-    <item
-        android:id="@+id/action_voucher"
-        android:enabled="true"
-        android:icon="@drawable/discount"
-        android:title="Discount"
-        android:showAsAction="ifRoom"/>
-
-
 </menu>

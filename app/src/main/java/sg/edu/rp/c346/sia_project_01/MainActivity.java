@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         final Fragment f1 = new AttractionsFragment();
         final Fragment f2 = new HotelFragment();
         final Fragment f3 = new homeFragment();
-
+        final Fragment f4 = new MapFragment();
 
         ft.replace(R.id.frame1, f3);
         ft.commit();
@@ -70,14 +70,10 @@ public class MainActivity extends AppCompatActivity {
 
                 switch (item.getItemId()) {
                     case R.id.action_maps:
-
+                        final FragmentTransaction ft = fm.beginTransaction();
+                        ft.replace(R.id.frame1, f4);
+                        ft.commit();
                 }
-
-                switch (item.getItemId()) {
-                    case R.id.action_voucher:
-
-                }
-
 
 
                 return true;
