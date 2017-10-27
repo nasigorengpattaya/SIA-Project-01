@@ -3,4 +3,11 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="string_user">Username:</string>
+    <string name="string_password">Password:</string>
+    <string name="string_login">LOGIN</string>
+    <string name="string_info">LOGIN TO DIGISTOP</string>
+    <string name="string_failLogin">Please re-type your login credentials.</string>
+    <string name="string_cancelDialog">OK</string>
+    <string name="string_titleDialog">Incorrect Login Credentials</string>
 </resources>

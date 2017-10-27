@@ -7,9 +7,28 @@
 
     <!-- TODO: Update blank fragment layout -->
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="143dp"
+        android:layout_height="143dp"
+        android:layout_below="@+id/btnNext"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:id="@+id/tvAttraction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="Scan to access 15 locations"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
     <ListView
         android:id="@+id/listAttractions"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"></ListView>
+        android:layout_height="match_parent"></ListView>
 
 </LinearLayout>
