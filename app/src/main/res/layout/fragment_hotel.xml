@@ -64,6 +64,14 @@
                     android:background="@drawable/coacharrival" />
             </LinearLayout>
 
+            <Button
+                android:id="@+id/btnGrab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="Book your Grab here"
+                android:textColor="@android:color/background_light" />
+
         </LinearLayout>
     </ScrollView>
 

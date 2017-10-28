@@ -18,7 +18,7 @@ import java.util.Map;
  */
 public class MapFragment extends Fragment {
 
-    Button btnCity, btnBus, btnLocation;
+    Button btnCity, btnBus, btnLocation, btnGrab;
 
     public MapFragment() {
         // Required empty public constructor
@@ -55,6 +55,8 @@ public class MapFragment extends Fragment {
                 startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("http://guides.tripomatic.com/download/tripomatic-free-city-guide-singapore-city.pdf")));
             }
         });
+
+
 
         return view;
     }
