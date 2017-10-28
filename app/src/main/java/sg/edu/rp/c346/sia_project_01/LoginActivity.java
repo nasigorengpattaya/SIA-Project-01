@@ -113,6 +113,7 @@ public class LoginActivity extends AppCompatActivity {
                 } else {
                     final AlertDialog.Builder builder = new AlertDialog.Builder(LoginActivity.this);
                     builder.setTitle(R.string.string_titleDialog);
+                    builder.setCancelable(false);
                     builder.setMessage(R.string.string_failLogin)
                             .setNegativeButton(R.string.string_cancelDialog, new DialogInterface.OnClickListener() {
                                 public void onClick(DialogInterface dialog, int id) {
