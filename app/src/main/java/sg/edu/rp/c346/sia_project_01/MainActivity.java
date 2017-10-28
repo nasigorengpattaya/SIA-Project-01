@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
         final Fragment f2 = new HotelFragment();
         final Fragment f3 = new homeFragment();
         final Fragment f4 = new MapFragment();
+        final Fragment f5 = new moreFragment();
 
         ft.replace(R.id.frame1, f3);
         ft.commit();
@@ -72,6 +73,13 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.action_maps:
                         final FragmentTransaction ft = fm.beginTransaction();
                         ft.replace(R.id.frame1, f4);
+                        ft.commit();
+                }
+
+                switch (item.getItemId()) {
+                    case R.id.action_menu:
+                        final FragmentTransaction ft = fm.beginTransaction();
+                        ft.replace(R.id.frame1, f5);
                         ft.commit();
                 }
 

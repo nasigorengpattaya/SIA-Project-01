@@ -28,7 +28,6 @@ public class HotelFragment extends Fragment {
         btnGrab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.airbnb.com/s/Singapore/experiences?allow_override%5B%5D=&place_id=ChIJyY4rtGcX2jERIKTarqz3AAQ")));
 
             }
         });

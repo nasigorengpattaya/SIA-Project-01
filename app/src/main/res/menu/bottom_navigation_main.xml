@@ -25,10 +25,17 @@
         android:showAsAction="ifRoom"/>
 
     <item
-        android:id="@+id/action_maps"
+    android:id="@+id/action_maps"
+    android:enabled="true"
+    android:icon="@drawable/ic_action_attraction"
+    android:title="Maps"
+    android:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_menu"
         android:enabled="true"
-        android:icon="@drawable/ic_action_attraction"
-        android:title="Maps"
+        android:icon="@drawable/ic_action_menu"
+        android:title="Menu"
         android:showAsAction="ifRoom"/>
 
 
